@@ -1,5 +1,7 @@
-a = 100
-print("a:", a)
+# a = 787
+# print("a:", a)
 
-massage = "Hello world!"
-print(massage)
+# massage = "Hello world!"
+# print(massage)
+
+print("Hello world!")
