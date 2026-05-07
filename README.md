@@ -29,3 +29,11 @@ git pull origin master
 - Operation & Coditions
 - Loops
 - ...
+
+## Python nima uzi
+
+- Web sayt yaratish
+- AI
+- Data analysis
+- Avtomatiashtirish
+- Hacking
