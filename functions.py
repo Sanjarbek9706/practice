@@ -34,7 +34,7 @@ print("=========Keyword & default argumets============")
 # DEFINE
 
 
-def give_greet(name, age=29):  # age=29ga shu yerda qiymat berilsa  defult argumet
+def give_greet(name, age=29):  # age=29ga shu yerda qiymat berilsa  defult argument
     print("give_greet is executed")
     return f"Hi {name}, you are {age} years old!"
 
@@ -44,5 +44,20 @@ result3 = give_greet(name="Nolon", age=27)  # name ,age keyword argument
 print("result3:", result3)
 
 
-result4 = give_greet("Sem")  # name ,age keyword argument
+result4 = give_greet("Sem")
 print("result4:", result4)
+
+
+print("=========Scope============")
+b = 100  # 3
+
+# DEFINE
+
+
+def calculate(a, b):  # 2
+    c = a * b  # 1
+    print(f"the c velue: {c}")
+
+
+# CALL
+calculate(5, 50)
