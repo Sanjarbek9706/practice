@@ -16,14 +16,32 @@ print("========= string ==========")
 
 course = "AI Python FullStack"
 result = type(course)
-print(f"the result (1): {result}")
+print(f"the result (1): {result}")  # the result (1): <class 'str'>
 
 result = course.title()
-print(f"the result (2): {result}")
+print(f"the result (2): {result}")  # the result (2): Ai Python Fullstack
 
 result = course.upper()
-print(f"the result (3): {result}")
+print(f"the result (3): {result}")  # the result (3): AI PYTHON FULLSTACK
 
 result = course.replace("FullStack", "MasterClass")
-print(f"the result (4): {result}")
-print(course)
+print(f"the result (4): {result}")  # the result (4): AI Python MasterClass
+
+
+print("========= boolean ==========")
+# function > type() input() bool() int() str()
+y = input("give your value for y: ")
+print("y:", y)
+
+result = y.isnumeric()  # raqam kiritilsin
+print(f"the input value is numeric: {result}")
+
+# TRUTHY vs FALSY value
+# TRUTHY: true 100 -100 "AVEN"
+# FALSY: false 0 "" None
+
+test_falsy = "" or False or None or 0
+print("The FALSY:", bool(test_falsy))
+
+test_truthy = "AVEN"
+print("test_truthy:", bool(test_truthy))
