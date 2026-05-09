@@ -37,6 +37,10 @@ except KeyError as err:
     print("No origin state property found:", err)
 except AttributeError as err:
     print("No speed found:", err)
+# except (KeyError, AttributeError) as  err:
+#     print("Error:",err) # qanday xatolik chiqsa shun chop etib beradi
+except Exception as err:
+    print("Error:", err)  # hamma xatolikni bitta tizimda akis etadi
 else:
     print("Executed successfully  without errors")
 finally:
