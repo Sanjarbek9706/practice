@@ -13,7 +13,7 @@ print("Hello world!")
 4)Booleanlarni organamiz  '''
 
 # Dunder __builtins__, __init__
-message = "PYTHON: Everything is object!"
+message = "PYTHON: Everything is object!"  # refirensga ega
 print(message)
 
 result = type(message)

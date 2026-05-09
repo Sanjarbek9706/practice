@@ -1,6 +1,6 @@
 print("========= number ==========")
 # in JAVA, variable is a name  storage location!
-# in Python, varible is a named reference!
+# in Python, variable is a named reference!
 
 count = 100
 count_type = type(count)
