@@ -61,3 +61,16 @@ print("-------")
 calculate(0, 2, 300)
 print("-------")
 calculate(5, 7)
+
+# **kwargs > dictionary
+
+
+def introduce(**kwargs):
+    print(f"the type(**kwargs)  value: {type(kwargs)}")
+    print(f"Hi, I am {kwargs['name']} and I am {kwargs["age"]} years old!")
+    pass
+
+
+# CALL
+introduce(name="Aven", age=29)
+introduce(name="Gary", age=50, single=True)
