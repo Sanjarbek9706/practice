@@ -4,6 +4,7 @@
     (3) Debagging 
 '''
 
+from PIL import Image
 import turtle
 print("======= Python Packages & Core Package ========")
 ''' Python  packages/Modules: Core file and External'''
@@ -31,3 +32,17 @@ with open("material/message.txt", "r") as your_file:
     print("your_content:", your_content)
 
 print("DONE")
+
+print("======= Package Manager & External Pakage ========")
+''' Package Managers
+    Python > pip pipenv
+    NodeJS > npm yarn
+    PHP > composer
+    MacOS > brew
+ '''
+# External package > https://pypi.org/
+
+with Image.open("material/logo.png") as img_obj:
+    resize_img = img_obj.resize((200, 200))
+    resize_img.show()
+    resize_img.save("material/semple.png")
