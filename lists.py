@@ -153,6 +153,7 @@ for car in cars:
     new_cars.append(car[0])
 print("new_car(1):", new_cars)
 
+# map
 result_map = map(lambda car: car[0], cars)
 print(f"the result1: {result1} and type: {type(result1)}")
 
