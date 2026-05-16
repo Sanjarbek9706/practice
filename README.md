@@ -43,3 +43,15 @@ git pull origin master
 - Data analysis
 - Avtomatiashtirish
 - Hacking
+
+## Pip commands:
+
+```
+    windows pip | macOS pip3
+
+    pip list
+    pip install pillow
+    pip uninstall pillow
+    pip show pillow
+    pip3 freeze > requirments.txt
+```
